@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-elemets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.navbar-elemets a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.navbar-elemets a:hover {
+  color: red;
+}
+
+.topbox {
+  display: flex;
+  border: 1px solid grey;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+}
+
+.phone {
+  font-size: xx-large;
+  border: 1px solid red;
+  color: aliceblue;
+  background-color: red;
+  padding: 10px;
+  width: 38%;
+}
+
+.hero-section {
+  color: aliceblue;
+  background-color: red;
+  display: flex;
+  margin-top: 1.2%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-btn {
+  background-color: aliceblue;
+  color: black;
+  padding: 20px;
+  font-size: large;
+  border: 1px solid aliceblue;
+}
+
+.hero-btn:hover {
+  border: 1px solid;
+  color: aliceblue;
+  background-color: red;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content h3 {
+  font-size: x-large;
+}
+
+.content-section {
+  display: flex;
+  gap: 8px;
+  margin-top: 1.2%;
+  border: 1px solid grey;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btnn {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: large;
+  border: 1px solid red;
+}
+
+.btnn:hover {
+  border: 1px solid;
+  color: red;
+  background-color: aliceblue;
+}
+
+.new-section {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hidden;
+  gap: 8px;
+}
+
+.minibox {
+  border: 1px solid black;
+  background-color: black;
+  text-align: center;
+  color: whitesmoke;
+  padding: 7px;
+  width: 27%;
+}
+
+.minibox:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.card-body h1:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card2 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.third-section h1{
+font-family: sans-serif;
+font-size: 36px;
+font-weight: 600;
+}
+
+.third-section p{
+font-family: Poppins, sans-serif;
+font-size: 14px;
+font-weight: 300;
+}
