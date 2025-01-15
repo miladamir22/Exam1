@@ -171,3 +171,40 @@ font-family: Poppins, sans-serif;
 font-size: 14px;
 font-weight: 300;
 }
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+gap: 10px;
+width: 70%;
+}
+
+.button1, .button2{
+  padding: 10px;
+  border: 1px solid red;
+  background-color: red;
+  color: aliceblue;
+  
+}
+
+.button2:hover{
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+.button1:hover{
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+.son{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  gap: 10px;
+}
